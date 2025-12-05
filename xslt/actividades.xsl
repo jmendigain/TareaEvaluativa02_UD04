@@ -5,7 +5,8 @@
   Fecha: 05/12/2025
   Módulo: Lenguaje de marcas y sistemas de gestión de la información (LMSGI)
   UD: UD4 - Transformación de datos
-  Tarea: Tarea de evaluación 2 - XSLT  
+  Tarea: Tarea de evaluación 2 - XSLT
+  Enlace GitHub: https://jmendigain.github.io/TareaEvaluativa02_UD04/
 -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -74,4 +75,5 @@
   <xsl:template match="responsable">
     <li><xsl:value-of select="nomresponsable"/> - <xsl:value-of select="email"/></li>
   </xsl:template>
+
 </xsl:stylesheet>
