@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xslt/plantas.xsl" type="text/xsl"?>
+<!--
+     Nombre: June Mendigain
+     Fecha: 05/12/2025
+     Módulo: Lenguaje de marcas y sistemas de gestión de la información (LMSGI)
+     UD: UD4 - Transformación de datos
+     Tarea: Tarea de evaluación 2 - XSLT  
+-->
+<jardinBotanico>
+  <!-- Sección 2: Plantas -->
+  <plantas>
+    <planta zona="Z-001" foto="OrquideaVioleta.jpg" familia="Orchidaceae">
+        <nombreComun>Orquídea Violeta</nombreComun>
+        <nombreCientifico>Vanda coerulea</nombreCientifico>
+        <epocaFloracion>Junio - Agosto</epocaFloracion>
+        <frecriego>Diario</frecriego>
+        <luminosidad>Baja</luminosidad>
+    </planta>
+    <planta zona="Z-002" foto="CactusBola.jpg" familia="Cactaceae">
+        <nombreComun>Cactus Bola</nombreComun>
+        <nombreCientifico>Echinocactus grusonii</nombreCientifico>
+        <epocaFloracion>Julio</epocaFloracion>
+        <frecriego>Semanal</frecriego>
+        <luminosidad>Alta</luminosidad>
+    </planta>
+    <planta zona="Z-001"  foto="PalmeraImperial.jpg" familia="Arecaceae">
+        <nombreComun>Palmera Imperial</nombreComun>
+        <nombreCientifico>Roystonea regia</nombreCientifico>
+        <epocaFloracion>Primavera</epocaFloracion>
+        <frecriego>Diario</frecriego>
+        <luminosidad>Alta</luminosidad>
+    </planta>
+  </plantas>
+  
+</jardinBotanico>

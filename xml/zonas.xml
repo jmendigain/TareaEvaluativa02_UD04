@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../xslt/zonas.xsl" type="text/xsl"?>
+<!--
+     Nombre: June Mendigain
+     Fecha: 05/12/2025
+     Módulo: Lenguaje de marcas y sistemas de gestión de la información (LMSGI)
+     UD: UD4 - Transformación de datos
+     Tarea: Tarea de evaluación 2 - XSLT  
+-->
+<jardinBotanico>
+  <!-- Sección 1: Zonas -->
+  <zonas>
+    <zona codigo="Z-001" tipo="Invernadero Tropical">
+      <nombre>Zona Tropical</nombre>
+      <descripcion>Plantas tropicales de distintas regiones del mundo.</descripcion>
+      <ubicacion>Planta Baja</ubicacion>
+      <horarioapertura>10:00</horarioapertura>
+      <horariocierre>20:00</horariocierre>
+    </zona>
+    <zona codigo="Z-002" tipo="Cactaceas">
+      <nombre>Jardín de Cactus</nombre>
+      <descripcion>Cactus y suculentas de diversas formas y tamaños.</descripcion>
+      <ubicacion>Exterior Sur</ubicacion>
+      <horarioapertura>14:00</horarioapertura>
+      <horariocierre>20:00</horariocierre>
+    </zona>
+    <zona codigo="Z-003" tipo="Invernadero Mediterráneo">
+      <nombre>Plantas Mediterraneas</nombre>
+      <descripcion>Cactus y suculentas de diversas formas y tamaños.</descripcion>
+      <ubicacion>Exterior Sur</ubicacion>
+      <horarioapertura>9:00</horarioapertura>
+      <horariocierre>19:30</horariocierre>
+    </zona>
+  </zonas>
+
+</jardinBotanico>
